@@ -1,6 +1,7 @@
 # Day 12/100 Guess a Number
 from random import randint
 from art import logo
+print("Welcome to Aaron's Guess a Number!")
 print(logo)
 print("I'm thinking of a number betweeen 1 and 100.")
 #Number guessing function
