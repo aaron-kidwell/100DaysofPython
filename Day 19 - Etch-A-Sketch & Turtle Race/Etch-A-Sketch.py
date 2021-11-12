@@ -1,9 +1,10 @@
+# Day 19/00 Etch-A-Sketch
 from turtle import Turtle, Screen
 
 tim = Turtle()
 screen = Screen()
 
-
+# using w, a, s, d, c: clear screen and movements
 def move_forwards():
     tim.forward(10)
 
@@ -22,7 +23,7 @@ def clear_screen():
     tim.home()
     tim.pendown()
   
-
+# event listener for inputs
 screen.listen()
 screen.onkey(key='w', fun=move_forwards)
 screen.onkey(key='a', fun=move_left)
