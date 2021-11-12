@@ -27,7 +27,3 @@ while y < 400:
     
 screen = Screen()
 screen.exitonclick()
-
-
-
-
